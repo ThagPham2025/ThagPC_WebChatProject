@@ -1,10 +1,66 @@
-body {
-    font-family: Arial, sans-serif;
+.page-tital{
     text-align: center;
-    padding-top: 100px;
 }
 
-button {
-    padding: 10px 20px;
-    cursor: pointer;
+
+.login-box{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border: 5px solid red;
+    border-radius: 5px;
+    
+    text-align: center;
+    
+    background-color: lightblue;
+}
+
+
+.input-group{
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+    width: 250px;
+    height: 50px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.input-group label{
+    display: block;
+    text-align: left;
+}
+.input-group input {
+    width: 100%;
+    padding: 8px 8px;
+    box-sizing: border-box;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    font-size: 12px;
+    outline: none;
+    text-align: left;
+
+    transition: 0.2s;
+}
+
+
+.login-button{
+    border: 2px solid rgb(102, 154, 25);
+    border-radius: 5px;
+    width: 125px;
+    height: 50px;
+
+    
+    background-color: rgb(193, 227, 239);
+}
+.regiter-button{
+    border: 2px solid rgb(102, 154, 25);
+    border-radius: 5px;
+    width: 125px;
+    height: 50px;
+
+    background-color: rgb(193, 227, 239);
 }

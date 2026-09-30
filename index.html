@@ -4,16 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>My Website</title>
+    <title>ThagPC WebChat</title>
 
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <h1>Hello World!</h1>
+    <h1 class="page-tital">Chào mừng đến với WebChat của Thắg đếp gem tốp 1 sever Vũ Trụ</h1>
 
-    <button id="helloButton">Click me</button>
+    <div class="login-box">Login
+        <div class="input-group">
+            <label for="username">User Name</label>
+            <input
+                type="username"
+                id="username"
+                placeholder="Nhập tên đăng nhập"
+                required
+            >
+        </div>
+        <div class="input-group">
+            <label for="password">Password</label>
+            <input
+                type="password"
+                id="password"
+                placeholder="Nhập mật khẩu"
+                required
+            >
+        </div>
+
+        <button class="login-button" type="submit">Login</button>
+        <button class="regiter-button" type="button">Regiter</button>
+
+    </div>
+    
+
+    <div class="forgot">
+        <a href="#">Quên Password</a>
+    </div>
+
+    
 
     <script src="js/main.js"></script>
 </body>
